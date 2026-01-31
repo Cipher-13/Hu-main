@@ -1,0 +1,38 @@
+.navbar {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  color: #000;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #4CAF50; /* hover color */
+}
+
+.connect-btn {
+  background-color: #D8FF00; /* neon green like your screenshot */
+  color: #000;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 6px 20px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.connect-btn:hover {
+  background-color: #C7E600;
+}

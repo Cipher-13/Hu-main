@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'humain';
+
+    isDropdownOpen = false;
+
+  onDropdownState(state: boolean) {
+    this.isDropdownOpen = state;
+  }
 }

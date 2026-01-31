@@ -1,3 +1,6 @@
-<app-nav-bar></app-nav-bar>
+<div class="blur-overlay" [class.active]="isDropdownOpen"></div>
+
+<app-nav-bar (dropdownState)="onDropdownState($event)"></app-nav-bar>
+
 <router-outlet></router-outlet>
 <app-footer></app-footer>
