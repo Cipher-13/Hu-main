@@ -1,0 +1,51 @@
+.home {
+  padding-top: 120px; /* navbar-safe */
+  padding-bottom: 80px;
+  background-image: url("../../../assets/images/home-wallpapper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ height: 700px;
+}
+
+.home-title {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #555;
+}
+
+.home-text {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Button */
+.connect-btn ,.watch-btn {
+  background-color: #D8FF00;
+  color: #000;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px 28px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.connect-btn:hover {
+  background-color: whitesmoke;
+}
+
+
+.watch-btn{
+background-color: white;
+}
+.watch-btn:hover {
+  background-color: #C7E600;
+}
+
