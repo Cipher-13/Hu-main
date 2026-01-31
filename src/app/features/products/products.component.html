@@ -1,1 +1,12 @@
-<p>products works!</p>
+<div class="cards-container">
+  <div class="card" *ngFor="let card of cards">
+    <div
+      class="card-bg"
+      [style.backgroundImage]="'url(' + card.image + ')'"
+    ></div>
+
+    <div class="card-overlay">
+      <h3>{{ card.title }}</h3>
+    </div>
+  </div>
+</div>
