@@ -3,7 +3,7 @@
   font-size: 16px;
   position: fixed;
   top: 0;
-  
+
   width: 100%;
   z-index: 1000;
 }
@@ -35,4 +35,48 @@
 
 .connect-btn:hover {
   background-color: #C7E600;
+}
+
+/* Mega menu dropdown only */
+.mega-menu {
+  min-width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Vertical separator */
+.mega-menu .vr {
+  border-left: 1px solid #ddd;
+  margin: 0 10px;
+}
+
+/* Headers */
+.mega-menu .dropdown-header {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Links hover */
+.mega-menu .dropdown-item:hover {
+  background-color: #f9f9f9;
+  color: #4CAF50;
+}
+
+/* Responsive: stack columns on mobile */
+@media (max-width: 768px) {
+  .mega-menu {
+    min-width: 100%;
+  }
+  .mega-menu .d-flex {
+    flex-direction: column;
+  }
+  .mega-menu .vr {
+    display: none;
+  }
+  .mega-menu .px-3 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 10px;
+  }
 }
