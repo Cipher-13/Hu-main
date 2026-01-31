@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './layouts/nav-bar/nav-bar.component';
 import { FooterComponent } from './layouts/footer/footer.component';
-import { MasterComponent } from './components/master/master.component';
 import { HomeComponent } from './components/home/home.component';
 import { ForbiddenComponent } from './layouts/forbidden/forbidden.component';
 
@@ -14,7 +13,6 @@ import { ForbiddenComponent } from './layouts/forbidden/forbidden.component';
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    MasterComponent,
     HomeComponent,
     ForbiddenComponent
   ],
